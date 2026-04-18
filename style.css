@@ -62,11 +62,11 @@ button {
 }
 
 .btn-github {
-    background-color: #24292e; /* Gris très foncé GitHub */
+    background-color: #0077b5; /* Gris très foncé GitHub */
 }
 
 .btn-github:hover {
-    background-color: #444d56; /* Un peu plus clair au survol */
+    background-color: #0077b5;; /* Un peu plus clair au survol */
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
