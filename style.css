@@ -58,7 +58,8 @@ button {
     width: 100%;     /* Confirme qu'il doit occuper 100% de la largeur de la carte */
     padding: 12px 0;
     /* ... le reste de ton code ... */
-
+    margin-top: 10px; /* Un peu d'espace entre les boutons */
+    text-decoration:none;
 }
 
 .btn-github {
@@ -82,14 +83,9 @@ button {
     cursor: pointer;
 }
 /* On retire le soulignement et la couleur bleue des liens */
+/* On neutralise le style par défaut des liens */
 .lien-bouton {
-    text-decoration: none;
-    display: block; /* Pour qu'ils s'empilent bien l'un sur l'autre */
-    width: 100%;
-}
-
-/* On s'assure que les boutons prennent bien toute la place */
-button {
-    width: 100%;
-    margin-top: 10px; /* Un peu d'espace entre les boutons */
+    text-decoration: none; /* Enlève le soulignement */
+    display: block;        /* Aligne les blocs l'un sous l'autre */
+    width: 100%;           /* Prend toute la largeur */
 }
