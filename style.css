@@ -81,3 +81,15 @@ button {
     background-color: black;
     cursor: pointer;
 }
+/* On retire le soulignement et la couleur bleue des liens */
+.lien-bouton {
+    text-decoration: none;
+    display: block; /* Pour qu'ils s'empilent bien l'un sur l'autre */
+    width: 100%;
+}
+
+/* On s'assure que les boutons prennent bien toute la place */
+button {
+    width: 100%;
+    margin-top: 10px; /* Un peu d'espace entre les boutons */
+}
