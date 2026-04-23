@@ -89,3 +89,13 @@ button {
     display: block;        /* Aligne les blocs l'un sous l'autre */
     width: 100%;           /* Prend toute la largeur */
 }
+@media (max-width: 400px) {
+    .card {
+        width: 95%;      /* La carte prend presque toute la largeur */
+        padding: 15px;   /* On réduit un peu l'espace interne */
+    }
+    
+    h2 {
+        font-size: 1.2rem; /* On réduit un peu la taille du nom */
+    }
+}
