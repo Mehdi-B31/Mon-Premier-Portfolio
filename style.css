@@ -99,3 +99,7 @@ button {
         font-size: 1.2rem; /* On réduit un peu la taille du nom */
     }
 }
+button i {
+    margin-right: 10px; /* Ajoute un petit espace à droite de l'icône */
+    font-size: 1.2rem;   /* Rend l'icône un peu plus visible */
+}
