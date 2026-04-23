@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    padding: 20px 0;   /* Ajoute un peu d'air en haut et en bas */
+    padding:0;   /* Ajoute un peu d'air en haut et en bas */
     background-color: #f5f7fa;
 }
 
