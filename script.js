@@ -1,0 +1,1 @@
+alert("Bravo Mehdi, ton environnement JavaScript est prêt !");
