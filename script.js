@@ -5,6 +5,7 @@ linkedin.addEventListener("click", function() {
 
 const github = document.getElementById("btnGithub");
 github.addEventListener("click", function() {
+    alert("Ouverture de mon profil GitHub !");
     document.querySelector(".card").style.borderTopColor = "#333"; // Noir GitHub
 });
 const themeToggle = document.getElementById("theme-toggle");

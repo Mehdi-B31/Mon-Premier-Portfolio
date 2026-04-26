@@ -24,7 +24,7 @@ body {
     width: 90%;
     max-width: 320px;
     transition: transform 0.3s ease;
-    border-top: 8px solid #1b666b;
+    border-top: 8px solid #00d2ff;
     .card {
     position: relative; /* <--- AJOUTE CETTE LIGNE */
     /* ... tes autres propriétés (background, padding, etc.) ... */
