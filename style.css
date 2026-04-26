@@ -25,6 +25,10 @@ body {
     max-width: 320px;
     transition: transform 0.3s ease;
     border-top: 8px solid #1b666b;
+    .card {
+    position: relative; /* <--- AJOUTE CETTE LIGNE */
+    /* ... tes autres propriétés (background, padding, etc.) ... */
+}
 }
 
 /* Petit bonus : la carte bouge un peu au survol */
