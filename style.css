@@ -103,3 +103,27 @@ button i {
     margin-right: 10px; /* Ajoute un petit espace à droite de l'icône */
     font-size: 1.2rem;   /* Rend l'icône un peu plus visible */
 }
+.btn-theme {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #1b666b;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #121212;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-top-color: #f1c40f;
+}
+
+body.dark-mode .btn-theme {
+    color: #f1c40f;
+}
